@@ -1,4 +1,4 @@
-# 💌 AI Email Generator Web App + Chrome Extension
+#  AI Email Generator Web App + Chrome Extension
 
 An AI-powered application that helps users generate intelligent and context-aware email replies. This full-stack project consists of a **Spring Boot backend**, a **React.js frontend**, and a smart **Chrome extension** to bring AI email suggestions directly into your browser.
 
