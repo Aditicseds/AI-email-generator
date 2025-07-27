@@ -6,8 +6,6 @@ An AI-powered application that helps users generate intelligent and context-awar
 
 ## 📁 Project Structure
 
-## 📁 Project Structure
-
 AI-email-generator/
 │
 ├── EmailEX/ # 🧩 Chrome extension
