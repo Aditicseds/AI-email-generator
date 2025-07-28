@@ -37,31 +37,49 @@ AI-email-generator/
 ├── README.md # 📄 This file
 └── .gitignore # Git ignored files
 
+
 ## 🛠️ Getting Started
 
-### 1. Clone the Repository
+### 1️⃣ Clone the Repository
+
+```bash
 git clone https://github.com/your-username/AI-email-generator.git
 cd AI-email-generator
+```
 
-### 2. Run the Backend (Spring Boot)
-**cd emailGenerator**
-**./mvnw spring-boot:run**
-**Runs on http://localhost:8080**
+---
 
-### 3. Run the Frontend (React)
-**cd ../frontend**
-**npm install**
-**npm start**
-**Runs on http://localhost:3000**
+### 2️⃣ Run the Backend (Spring Boot)
 
-### 4. Load the Chrome Extension
-**Open Chrome and go to chrome://extensions**
-**Enable Developer Mode**
-**Click Load unpacked**
+```bash
+cd emailGenerator
+./mvnw spring-boot:run
+```
 
-**Select the /EmailEX directory**
+> Backend will start at: `http://localhost:8080`
 
-**Now the extension is ready to use in your Gmail tab!**
+---
 
+### 3️⃣ Run the Frontend (React)
 
+Open a **new terminal**:
 
+```bash
+cd frontend
+npm install
+npm start
+```
+
+> Frontend will run at: `http://localhost:3000`
+
+---
+
+### 4️⃣ Load the Chrome Extension
+
+1. Open Google Chrome  
+2. Go to `chrome://extensions`  
+3. Enable **Developer Mode** (top-right toggle)  
+4. Click **Load unpacked**  
+5. Select the `EmailEX/` folder
+
+✅ The extension is now ready and active in your browser!
